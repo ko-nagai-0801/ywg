@@ -13,6 +13,16 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
+  
+  <!-- Favicons -->
+  <link rel="icon" href="./img/icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/icons//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/icons//favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/icons//apple-touch-icon.png">
+  <link rel="manifest" href="./img/icons//site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
   <!-- Reset CSS -->
   <link rel="stylesheet" href="./css/reset.css">
   <!-- Bootstrap 5.3 CDN -->
@@ -21,7 +31,6 @@
   <!-- Site CSS -->
   <link rel="stylesheet" href="./css/mybootstrap.css">
   <link rel="stylesheet" href="./css/common.css">
-  <!-- <link rel="stylesheet" href="./css/cutout.css"> -->
   <link rel="stylesheet" href="./css/top.css">
 </head>
 
