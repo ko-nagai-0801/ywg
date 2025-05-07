@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/htdocs",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\Htdocs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ko-nagai-0801",
+            "email": "ko.nagai.0801@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

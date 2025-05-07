@@ -1,0 +1,20 @@
+/* css/recruit.css */
+
+/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+.subhero {
+    background-image: url("../img/subhero-recruit.jpg");
+  }
+  
+
+  /* 他のページのcontact部分。recruitのみ「求人へのご応募」に変更 */
+  .section-banner__box {
+    position: relative; /* before の上に配置 */
+    z-index: 2;
+  }
+
+  .section-banner__h3 {
+    color: #ec8555;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }

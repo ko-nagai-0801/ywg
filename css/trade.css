@@ -1,0 +1,30 @@
+/* css/trade.css */
+
+/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+.subhero {
+  background-image: url("../img/subhero-trade.jpg");
+}
+
+/* 輸出・輸入事業のボックス */
+#export-import .trade-item {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* 見出し（h2）を太く */
+#export-import .trade-item h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* 768px 以下では見出し中央寄せに */
+@media (max-width: 768px) {
+  #export-import .trade-item h2 {
+    text-align: center;
+  }
+}
+
+/* 768px 以下で画像とテキストが縦並びの際の余白は
+     img の mb-4 で確保済み */

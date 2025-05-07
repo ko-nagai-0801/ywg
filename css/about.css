@@ -1,0 +1,43 @@
+/* css/about.css */
+
+/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+.subhero {
+  background-image: url("../img/subhero-about.jpg");
+}
+
+/* 会社概要テーブル */
+.about-table {
+  max-width: 800px; /* テーブル最大幅 */
+  margin: 0 auto; /* 中央寄せ */
+  border-collapse: collapse;
+}
+
+/* 全セルに共通の余白と罫線 */
+.about-table th,
+.about-table td {
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+  border: 1px solid #ddd;
+}
+
+/* 見出しセル（左列） */
+.about-table th {
+  background-color: #f8f9fa;
+  width: 30%;
+  font-weight: 600;
+}
+
+/* 内容セル（右列） */
+.about-table td {
+  width: 70%;
+}
+
+/* 経営理念セクションの背景色調整 */
+/* #philosophy { */
+  /* 既に bg-light がついていますが、必要であれば色の調整を */
+/* } */
+
+/* お問い合わせ誘導のボタン余白調整 */
+#main-content .btn-primary {
+  padding: 0.75rem 2rem;
+}

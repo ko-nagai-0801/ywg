@@ -1,0 +1,29 @@
+/* ❶ パララックス背景レイヤー --------------- */
+.global-parallax{
+    position: fixed;
+    inset: 0;
+    background: url('../img/para.webp') center/cover no-repeat;
+    will-change: transform;
+    z-index: -1;                /* 画面最背面へ */
+  }
+  
+  /* ❷ 前面パネル --------------- */
+  .cutout-section{
+    position: relative;
+    /* background: #fff;           パネル色 */
+    /* くり抜き: 上辺中央に半円の穴（直径 180px） */
+    /* Chrome・Edge */
+    /* mask: radial-gradient(circle 90px at 50% 0, transparent 0 90px, #000 91px); */
+    /* Safari (‐webkit-系) */
+    /* -webkit-mask: radial-gradient(circle 90px at 50% 0, transparent 0 90px, #000 91px); */
+  }
+  
+  /* ❸ くり抜きの上に薄い枠線を付けたい場合（任意） */
+  /* .cutout-section::before{
+    content:"";
+    position:absolute;
+    top:-1px; left:0; right:0; height:180px;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    pointer-events:none;
+  } */
+  

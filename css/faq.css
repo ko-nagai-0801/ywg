@@ -1,0 +1,7 @@
+/* css/faq.css */
+
+/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+.subhero {
+    background-image: url("../img/subhero-faq.jpg");
+  }
+  

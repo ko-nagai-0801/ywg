@@ -1,0 +1,61 @@
+/* css/childpage.css */
+
+
+/* サブヒーローセクション */
+.subhero {
+    position: relative;
+    height: 40vh; /* 高さは必要に応じて調整 */
+    margin-bottom: 2rem;
+    background-size: cover;
+    /* 初期のY位置をCSS変数で指定 */
+    --init-pos-y: 30%;
+    background-position: center var(--init-pos-y);
+    color: #fff;
+  }
+  /* 大きい画面で過拡大を抑制 */
+  @media (min-width: 1200px) {
+    .subhero {
+      background-size: 100% auto;
+      --init-pos-y: 50%;
+    }
+  }
+  /* 小さい画面で下部が見切れないよう下寄せ */
+  @media (max-width: 768px) {
+    .subhero {
+      --init-pos-y: 40px;
+    }
+  }
+  @media (max-width: 425px) {
+    .subhero {
+      /* background-position: center 60%; */
+    }
+  }
+  
+  /* オーバーレイ */
+  .subhero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* タイトルをオーバーレイの上に */
+  .subhero-title {
+    position: relative;
+    z-index: 2;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
+  .subhero-subtitle {
+    color: #ec8555;
+    position: relative;
+    z-index: 2;
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
