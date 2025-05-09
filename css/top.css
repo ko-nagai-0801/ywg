@@ -149,3 +149,46 @@ section {
   list-style: disc inside;
   padding-left: 1rem;
 }
+
+/* カードのベース */
+.service-card {
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* カードホバーで浮き上がる */
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* アイコン */
+.service-card .card-icon i {
+  color: #e06126;
+}
+
+/* タイトル */
+.service-card .card-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+/* 説明文 */
+.service-card .card-text {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* カード内リンクの余白調整 */
+.service-card .card-body {
+  padding: 2rem 1.5rem;
+}
+
+/* レスポンシブ：テキスト揃え */
+@media (max-width: 576px) {
+  .service-card .card-body {
+    padding: 1.5rem 1rem;
+  }
+}

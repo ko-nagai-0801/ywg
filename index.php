@@ -48,7 +48,7 @@
     </section>
 
 <!-- ========================
-      ？？？バナーセクション
+      バナーセクション
 ========================= -->
 <!-- <section id="business" class="section-banner section-banner--business">
   <h2 class="section-banner__heading text-center">
@@ -57,28 +57,53 @@
   </h2>
 </section> -->
 
-<!-- ↓ タイトル帯の下は通常コンテンツ。背景は出てこない -->
-<section id="services" class="py-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./about/" class="service-card d-block text-center text-decoration-none py-5">
-              会社概要
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./faq/" class="service-card d-block text-center text-decoration-none py-5">
-              FAQ
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./recruit/" class="service-card d-block text-center text-decoration-none py-5">
-              採用情報
-            </a>
-          </div>
+<section id="abouts" class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- 会社概要 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./about/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-building fs-1"></i>
+            </div>
+            <h5 class="card-title">会社概要</h5>
+            <p class="card-text">当社についてご紹介します。</p>
+          </a>
         </div>
       </div>
-    </section>
+      
+      <!-- FAQ -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./faq/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-question-circle fs-1"></i>
+            </div>
+            <h5 class="card-title">FAQ</h5>
+            <p class="card-text">よくあるご質問をまとめています。</p>
+          </a>
+        </div>
+      </div>
+      
+      <!-- 採用情報 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./recruit/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-people-fill fs-1"></i>
+            </div>
+            <h5 class="card-title">採用情報</h5>
+            <p class="card-text">一緒に働く仲間を募集しています。</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 <!-- ========================
       事業内容バナーセクション
@@ -92,43 +117,53 @@
   </h2>
 </section>
 
-<!-- ↓ タイトル帯の下は通常コンテンツ。背景は出てこない -->
 <section id="services" class="py-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./about/" class="service-card d-block text-center text-decoration-none py-5">
-              会社概要
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./trade/" class="service-card d-block text-center text-decoration-none py-5">
-              貿易業
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./hr/" class="service-card d-block text-center text-decoration-none py-5">
-              外国人材紹介
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./salon/" class="service-card d-block text-center text-decoration-none py-5">
-              サロン事業
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./faq/" class="service-card d-block text-center text-decoration-none py-5">
-              FAQ
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <a href="./recruit/" class="service-card d-block text-center text-decoration-none py-5">
-              採用情報
-            </a>
-          </div>
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- 貿易業 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./trade/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-truck fs-1"></i>
+            </div>
+            <h5 class="card-title">貿易業</h5>
+            <p class="card-text">アジア〜欧米への輸出入・物流コンサルをワンストップで。</p>
+          </a>
         </div>
       </div>
-    </section>
+
+      <!-- 外国人材紹介 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./hr/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-person-lines-fill fs-1"></i>
+            </div>
+            <h5 class="card-title">外国人材紹介</h5>
+            <p class="card-text">企業様と外国人求職者を結ぶ、人材マッチングサービス。</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- サロン事業 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 text-center border-0">
+          <a href="./salon/" class="card-body d-flex flex-column align-items-center justify-content-center text-decoration-none text-dark">
+            <div class="card-icon mb-3">
+              <i class="bi bi-scissors fs-1"></i>
+            </div>
+            <h5 class="card-title">サロン事業</h5>
+            <p class="card-text">サンプルテキスト</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   </main>
 
