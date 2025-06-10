@@ -35,7 +35,7 @@
 </head>
 
 <body>
-<?php include('./includes/header.php'); ?>
+<?php include('./includes/top-header.php'); ?>
 
   <!-- メインコンテンツ -->
   <main id="main-content">
