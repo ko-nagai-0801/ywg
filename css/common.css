@@ -203,6 +203,19 @@ a {
   }
 }
 
+
+/* -------------------------------------------
+    サブヒーロー（中央寄せ）
+---------------------------------------------*/
+.subhero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.subhero__inner { width: 100%; }
+
+
 /* ==========================
    Section Banner  (BEM命名)
 ========================== */

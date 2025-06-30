@@ -1,6 +1,203 @@
 /* css/hr.css */
+/*==================================================
+  Foreign HR Page Styles
+==================================================*/
 
-/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+/* — Subhero 背景 — */
 .subhero {
-    background-image: url("../img/subhero-hr.jpg");
+  background-image: url("../img/subhero-hr.jpg");
+}
+
+/* — セクション共通 — */
+.hr__section + .hr__section {
+  border-top: 1px solid #e0e0e0;
+}
+
+/* — セクションタイトル — */
+.hr__section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+.hr__section-subheading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+/* — Figure — */
+.hr__figure {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+}
+.hr__figure img {
+  display: block;
+  width: 80vw;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+/* — コンテンツ — */
+.hr__content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.hr__content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+.hr__content ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* — カルーセル画像 — */
+.carousel-inner img {
+  object-fit: cover;
+  height: 300px; /* 必要に応じ調整 */
+}
+
+/* — ボックスリスト（こんな企業様にオススメ／採用メリット） — */
+.hr__box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hr__box {
+  border: 2px solid #1e5e2a;
+  border-radius: 0.25rem;
+  width: 80vw;
+  max-width: 1000px;
+  overflow: hidden;
+}
+.hr__box-title {
+  background-color: #1e5e2a;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  margin: 0;
+}
+.hr__box-list {
+  list-style: disc inside;
+  padding: 1rem;
+  margin: 0;
+}
+.hr__box-list li + li {
+  margin-top: 0.5rem;
+}
+
+/* — レスポンシブ微調整 — */
+@media (max-width: 768px) {
+  .hr__section h2 {
+    font-size: 1.75rem;
+    text-align: center;
   }
+  .hr__box {
+  width: 100%;
+}
+}
+
+/* 既存 hr.css 末尾に追記 ----------------------------------- */
+
+/* 小見出し（［  ］付き） */
+.hr__subheading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* 番号付きメリットリスト */
+.benefit-list {
+  counter-reset: benefit;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.benefit-list > li {
+  counter-increment: benefit;
+  margin-bottom: 1.75rem; /* 項目間隔 */
+  line-height: 1.7;
+}
+.benefit-list > li::before {
+  content: counter(benefit) ".";
+  color: #009314;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+.benefit-list strong {
+  color: #009314;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.benefit-list p {
+  color: #1a1a1a;
+  font-weight: 500;
+  margin: 0.25rem 0 0 1.5rem; /* 番号下げ＋上余白 */
+}
+
+/* 研修サポートなどのボックス調整（既存 .hr__box を補強） */
+.hr__box .p-3 {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* カルーセル画像（高さは任意で調整可） */
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px; /* モバイルでも見切れにくいサイズ */
+}
+
+/* モバイル時の余白を微調整 */
+@media (max-width: 767px) {
+  .benefit-list > li {
+    margin-bottom: 1.25rem;
+  }
+}
+
+/*==================================================
+  リスト用アイコンを bi-check-circle-fill に変更
+  （role-list / industry-list 共通）
+==================================================*/
+.role-list,
+.industry-list {
+  list-style: none; /* デフォルトの「・」を消す */
+  padding-left: 0; /* アイコン分の左右余白は後で設定 */
+  margin: 0;
+}
+
+.role-list li,
+.industry-list li {
+  position: relative;
+  padding-left: 1.75rem; /* アイコン＋余白 */
+  line-height: 1.7;
+}
+
+/* 疑似要素でアイコンを挿入 */
+.role-list li::before,
+.industry-list li::before {
+  content: "\F26A"; /* bi-check-circle-fill */
+  font-family: "bootstrap-icons"; /* Bootstrap Icons のフォント */
+  position: absolute;
+  left: 0;
+  top: 0.15rem; /* 文字位置に微調整 */
+  font-size: 1rem;
+  color: #949494;
+}
+
+/* -------------------------------------------
+    カルーセル画像 (d-block / w-100 代替)
+---------------------------------------------*/
+.carousel-inner img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 400px;
+}
