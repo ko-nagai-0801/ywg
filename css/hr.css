@@ -8,14 +8,14 @@
   justify-content: center;
   text-align: center;
 }
-.carousel-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .subhero__inner {
   width: 100%;
+}
+.carousel-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .carousel-inner img {
   width: 100%;
@@ -205,21 +205,19 @@
 
 /* ================= モバイル用フォント調整 ================= */
 @media (max-width: 768px) {
-
   /* セクションタイトル <h2 class="hr__section-heading"> */
   .hr__section-heading {
-    font-size: 1.5rem;   /* 2.0 → 1.5 */
+    font-size: 1.5rem; /* 2.0 → 1.5 */
   }
 
   /* サブタイトル <h3 class="hr__section-subheading"> */
   .hr__section-subheading {
-    font-size: 1.2rem;   /* 1.75 → 1.4 */
+    font-size: 1.2rem; /* 1.75 → 1.4 */
   }
 
   /* ボックス見出し（hr__box-title・チェック付きリスト見出し等） */
   .hr__box-title,
   .benefit-list strong {
-    font-size: 1.05rem;  /* 1.25 or 1.2 → 1.05 */
+    font-size: 1.05rem; /* 1.25 or 1.2 → 1.05 */
   }
-
 }
