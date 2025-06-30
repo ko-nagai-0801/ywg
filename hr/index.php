@@ -49,15 +49,15 @@
     </section>
 
 
-    <!--Section01 外国人技能実習生 -->
+    <!-- =====================================================
+       01 外国人技能実習生
+  ===================================================== -->
     <section id="trainee" class="container hr__section py-5">
 
-      <!-- タイトル -->
       <h2 class="hr__section-heading mb-4">外国人技能実習生</h2>
 
-      <!-- １行目：テキスト／カルーセル -->
       <div class="row mb-5">
-        <!-- テキスト -->
+        <!-- 1-A 説明 -->
         <div class="col-lg-6">
           <div class="hr__content">
             <h3 class="hr__section-subheading mb-3">外国人技能実習生制度とは</h3>
@@ -69,10 +69,11 @@
             </p>
           </div>
         </div>
-        <!-- カルーセル -->
+        <!-- 1-B カルーセル -->
         <div class="col-lg-6">
           <div id="traineeCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
+              <!-- 5 dots -->
               <button type="button" data-bs-target="#traineeCarousel" data-bs-slide-to="0" class="active"></button>
               <button type="button" data-bs-target="#traineeCarousel" data-bs-slide-to="1"></button>
               <button type="button" data-bs-target="#traineeCarousel" data-bs-slide-to="2"></button>
@@ -80,6 +81,7 @@
               <button type="button" data-bs-target="#traineeCarousel" data-bs-slide-to="4"></button>
             </div>
             <div class="carousel-inner rounded">
+              <!-- 画像5枚 -->
               <div class="carousel-item active">
                 <img src="../img/hr/hr-trainee-01.jpg" alt="技能実習の様子1" loading="lazy">
               </div>
@@ -106,9 +108,10 @@
         </div>
       </div>
 
-      <!-- ２行目：おすすめ／メリット -->
+      <!-- 1-C ボックス２種 -->
       <div class="hr__box-container mb-5">
 
+        <!-- オススメ -->
         <div class="hr__box mb-3">
           <h4 class="hr__box-title">こんな企業様にオススメ</h4>
           <ul class="hr__box-list">
@@ -117,6 +120,7 @@
             <li>建設関係、機械・金属関係など技能実習対象職種・作業に該当する企業</li>
           </ul>
         </div>
+        <!-- メリット -->
         <div class="hr__box mb-3">
           <h4 class="hr__box-title">採用メリット</h4>
           <ul class="hr__box-list">
@@ -135,7 +139,9 @@
     </section>
 
 
-    <!-- Section02 外国人エンジニア -->
+    <!-- =====================================================
+       02 外国人エンジニア（以下レイアウトは変更なし）
+  ===================================================== -->
     <section id="engineer" class="container hr__section py-5">
 
       <h2 class="hr__section-heading mb-4">外国人エンジニア</h2>
@@ -167,7 +173,7 @@
               <button type="button" data-bs-target="#engineerCarousel" data-bs-slide-to="1"></button>
               <button type="button" data-bs-target="#engineerCarousel" data-bs-slide-to="2"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner rounded">
               <div class="carousel-item active"><img src="../img/hr/hr-engineer-01.jpg" alt="エンジニア画像1" loading="lazy"></div>
               <div class="carousel-item"><img src="../img/hr/hr-engineer-02.jpg" alt="エンジニア画像2" loading="lazy"></div>
               <div class="carousel-item"><img src="../img/hr/hr-engineer-03.jpg" alt="エンジニア画像3" loading="lazy"></div>
@@ -183,7 +189,7 @@
       </div>
 
       <!-- ② メリット（番号付き＋説明） -->
-      <h3 class="hr__subheading mb-3">【外国人エンジニアのメリット】</h3>
+      <h3 class="hr__section-subheading mb-3">【外国人エンジニアのメリット】</h3>
       <ol class="benefit-list mb-5">
         <li>
           <strong>仕事へのモチベーションが高い</strong>
@@ -241,8 +247,10 @@
     </section>
 
 
-
-    <!-- 特定技能 -->
+    <!-- =====================================================
+      03 特定技能
+  ===================================================== -->
+    <!--  -->
     <section id="tokutei" class="container hr__section py-5">
       <div class="container">
 
@@ -272,7 +280,7 @@
                 <button type="button" data-bs-target="#tokuteiCarousel" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#tokuteiCarousel" data-bs-slide-to="2"></button>
               </div>
-              <div class="carousel-inner">
+              <div class="carousel-inner rounded">
                 <div class="carousel-item active"><img src="../img/hr/hr-tokutei-01.jpg" alt="特定技能画像1" loading="lazy"></div>
                 <div class="carousel-item"><img src="../img/hr/hr-tokutei-02.jpg" alt="特定技能画像2" loading="lazy"></div>
                 <div class="carousel-item"><img src="../img/hr/hr-tokutei-03.jpg" alt="特定技能画像3" loading="lazy"></div>
@@ -289,7 +297,7 @@
       </div>
 
       <!-- 特定技能の特徴 -->
-      <h4 class="hr__subheading mb-3">【特定技能の特徴】</h4>
+      <h4 class="hr__section-subheading mb-3">【特定技能の特徴】</h4>
       <ol class="benefit-list mb-5">
         <li>
           <strong>単純労働の就労が可能</strong>
@@ -306,7 +314,7 @@
       </ol>
 
       <!-- 業種リスト(14) -->
-      <h4 class="hr__subheading mb-2">【特定技能14業種】</h4>
+      <h4 class="hr__section-subheading mb-2">【特定技能14業種】</h4>
       <ul class="industry-list mb-3">
         <li>介護</li>
         <li>ビルクリーニング</li>
@@ -331,96 +339,97 @@
     </section>
 
 
-    <!-- 富士国際日本語教育学園 -->
+    <!-- =====================================================
+      04 富士国際日本語教育学園
+===================================================== -->
     <section id="fuji" class="container hr__section py-5">
-      <div class="container">
 
-        <!-- タイトル + ロゴ -->
-        <h2 class="hr__section-heading mb-3">富士国際日本語教育学園</h2>
+      <!-- タイトル + ロゴ -->
+      <h2 class="hr__section-heading mb-3">富士国際日本語教育学園</h2>
 
-        <div class="row mb-4">
-          <div class="col-8">
-            <p>
-              『外国人技能実習』『外国人エンジニア』『特定技能』などの就労で日本へ行くことが決定した
-              ベトナム人に対し、企業様からご依頼を頂き、質の高い即戦力となる人材を育成するため、
-              ハノイ市内にベトナム人経営者と共に富士国際日本語教育学園を開校致しました。
-            </p>
-            <p>
-              外国人が異国で就労する上で、仕事面の即戦力はもちろんのこと、
-              まずは日本の生活・風習・文化に馴染めるかという課題に直面します。
-            </p>
-            <p>
-              当学園では日本語コミュニケーション能力だけでなく、ビジネスマナーや生活ルール、
-              日本人とのコミュニケーション方法、仕事の進め方まで含めた独自カリキュラムを構築。
-              即戦力として日本社会に適応できるワンランク上の人材を育成しています。
-            </p>
-          </div>
-          <div class="col-4">
-            <img src="../img/hr/hr-fuji-logo.jpg"
-              alt="富士国際日本語教育学園 ロゴ"
-              class="img-fluid rounded shadow-sm fuji-logo">
+      <div class="fuji__box row mb-4">
+        <div class="col-lg-8">
+          <p>
+            『外国人技能実習』『外国人エンジニア』『特定技能』などの就労で日本へ行くことが決定した
+            ベトナム人に対し、企業様からご依頼を頂き、質の高い即戦力となる人材を育成するため、
+            ハノイ市内にベトナム人経営者と共に富士国際日本語教育学園を開校致しました。
+          </p>
+          <p>
+            外国人が異国で就労する上で、仕事面の即戦力はもちろんのこと、
+            まずは日本の生活・風習・文化に馴染めるかという課題に直面します。
+          </p>
+          <p>
+            当学園では日本語コミュニケーション能力だけでなく、ビジネスマナーや生活ルール、
+            日本人とのコミュニケーション方法、仕事の進め方まで含めた独自カリキュラムを構築。
+            即戦力として日本社会に適応できるワンランク上の人材を育成しています。
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <div class="fuji-logo-wrap">
+            <img src="../img/hr/hr-fuji-logo.jpg" alt="富士国際日本語教育学園 ロゴ" class="fuji-logo">
           </div>
         </div>
+      </div>
 
-        <!-- 校内・授業風景画像（任意で複数枚） -->
-        <figure class="hr__figure mb-5">
-          <img src="../img/hr/hr-fuji-img.jpg"
-            alt="富士国際日本語教育学園の授業風景"
-            loading="lazy"
-            class="img-fluid rounded">
-        </figure>
+      <!-- 校内・授業風景画像（任意で複数枚） -->
+      <figure class="hr__figure mb-5">
+        <img src="../img/hr/hr-fuji-img.jpg"
+          alt="富士国際日本語教育学園の授業風景"
+          loading="lazy"
+          class="img-fluid rounded">
+      </figure>
 
-        <!-- 特徴ボックス -->
-        <div class="hr__box-container mb-5">
-          <div class="hr__box mb-5">
-            <h4 class="hr__box-title">富士国際日本語教育学園 の特徴</h4>
-            <ul class="hr__box-list fuji-features">
-              <li>貴社のご希望に適した教育プログラムの作成により、より実践的な人材教育が可能</li>
-              <li>日本語だけでなく、日本を熟知した即戦力人材の育成が可能</li>
-              <li>寮完備により集中した上達の早い人材教育、個別指導にも対応</li>
-              <li>日本語能力試験 N5 を取得させて送り出し</li>
-            </ul>
+      <!-- 特徴ボックス -->
+      <div class="hr__box-container mb-5">
+        <div class="hr__box mb-5">
+          <h4 class="hr__box-title">富士国際日本語教育学園 の特徴</h4>
+          <ul class="hr__box-list fuji-features">
+            <li>貴社のご希望に適した教育プログラムの作成により、より実践的な人材教育が可能</li>
+            <li>日本語だけでなく、日本を熟知した即戦力人材の育成が可能</li>
+            <li>寮完備により集中した上達の早い人材教育、個別指導にも対応</li>
+            <li>日本語能力試験 N5 を取得させて送り出し</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ビジネス教育プラン -->
+      <p class="hr__content mb-5">
+        当社ではビジネス教育プランをご利用頂く事により、企業様ごとに合った即戦力となる人材を育成し、
+        幅広い業種の日本企業様へ優秀なベトナム人材を送り出しております。
+      </p>
+
+      <!-- カルーセル -->
+      <div class="carousel-wrapper">
+        <div id="fujiCarousel" class="carousel slide rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="4"></button>
           </div>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active"><img src="../img/hr/hr-fuji-01.jpg" alt="富士国際日本語教育学園1" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-02.jpg" alt="富士国際日本語教育学園2" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-03.jpg" alt="富士国際日本語教育学園3" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-04.jpg" alt="富士国際日本語教育学園4" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-05.jpg" alt="富士国際日本語教育学園5" loading="lazy"></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#fujiCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#fujiCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
 
-        <!-- ビジネス教育プラン -->
-        <p class="hr__content mb-5">
-          当社ではビジネス教育プランをご利用頂く事により、企業様ごとに合った即戦力となる人材を育成し、
-          幅広い業種の日本企業様へ優秀なベトナム人材を送り出しております。
-        </p>
-
-        <!-- カルーセル -->
-        <div class="col-lg-6">
-          <div id="fujiCarousel" class="carousel slide rounded" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="2"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="3"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active"><img src="../img/hr/hr-fuji-01.jpg" alt="富士国際日本語教育学園1" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-02.jpg" alt="富士国際日本語教育学園2" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-03.jpg" alt="富士国際日本語教育学園3" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-04.jpg" alt="富士国際日本語教育学園4" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-05.jpg" alt="富士国際日本語教育学園5" loading="lazy"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#fujiCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#fujiCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
-        </div>
 
         <!-- 住所 -->
         <address class="hr__content">
           <strong>住所：</strong>BT2.9 Khu đô thị chức năng Tây Mỗ, Nam Từ Liêm, Hà Nội【ハノイ市西部】
         </address>
-
       </div>
+
     </section>
 
 
