@@ -400,33 +400,32 @@
 
       <!-- カルーセル -->
       <div class="carousel-wrapper">
-        <div class="col-12 col-lg-8">
-          <div id="fujiCarousel" class="carousel slide rounded" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="2"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="3"></button>
-              <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="4"></button>
-            </div>
-            <div class="carousel-inner rounded">
-              <div class="carousel-item active"><img src="../img/hr/hr-fuji-01.jpg" alt="富士国際日本語教育学園1" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-02.jpg" alt="富士国際日本語教育学園2" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-03.jpg" alt="富士国際日本語教育学園3" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-04.jpg" alt="富士国際日本語教育学園4" loading="lazy"></div>
-              <div class="carousel-item"><img src="../img/hr/hr-fuji-05.jpg" alt="富士国際日本語教育学園5" loading="lazy"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#fujiCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#fujiCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
+        <div id="fujiCarousel" class="carousel slide rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#fujiCarousel" data-bs-slide-to="4"></button>
           </div>
-          <!-- 住所 -->
-          <address class="hr__content">
-            <strong>住所：</strong>BT2.9 Khu đô thị chức năng Tây Mỗ, Nam Từ Liêm, Hà Nội【ハノイ市西部】
-          </address>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active"><img src="../img/hr/hr-fuji-01.jpg" alt="富士国際日本語教育学園1" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-02.jpg" alt="富士国際日本語教育学園2" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-03.jpg" alt="富士国際日本語教育学園3" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-04.jpg" alt="富士国際日本語教育学園4" loading="lazy"></div>
+            <div class="carousel-item"><img src="../img/hr/hr-fuji-05.jpg" alt="富士国際日本語教育学園5" loading="lazy"></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#fujiCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#fujiCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <!-- 住所 -->
+        <address class="hr__content">
+          <strong>住所：</strong>BT2.9 Khu đô thị chức năng Tây Mỗ, Nam Từ Liêm, Hà Nội【ハノイ市西部】
+        </address>
       </div>
 
     </section>

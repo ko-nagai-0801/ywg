@@ -1,6 +1,7 @@
 /* =============================================================
     0.  基本要素
 ============================================================= */
+/* サブヒーロー */
 .subhero {
   background: url("../img/subhero-hr.jpg") center/cover no-repeat;
   display: flex;
@@ -12,10 +13,13 @@
 .subhero__inner {
   width: 100%;
 }
+
+/* カルーセル */
 .carousel-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .carousel-inner img {
   width: 100%;
@@ -28,6 +32,18 @@
   .carousel-inner img {
     height: 280px;
   }
+}
+#fujiCarousel {
+  flex: 0 0 auto;
+  width: 70vw;
+  max-width: 1000px;
+  height: 450px;
+}
+@media (max-width: 600px) {
+#fujiCarousel {
+  width: 100%;
+  height: 280px;
+}
 }
 
 /* =============================================================
