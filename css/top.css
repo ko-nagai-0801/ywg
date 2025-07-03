@@ -28,7 +28,7 @@ section {
   text-align: center;
 
   /* ■ parallax 初期位置を変数で制御 ■ */
-  --init-pos-y: 50%;                    /* 中画面時の初期位置 */
+  --init-pos-y: 50%; /* 中画面時の初期位置 */
   background-image: url("../img/hero1.webp");
   background-size: cover;
   background-position: center var(--init-pos-y);
@@ -71,7 +71,6 @@ section {
     --init-pos-y: 70%;
   }
 }
-
 
 #hero h1 {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -136,22 +135,40 @@ section {
   }
 }
 
-
 /* もし parallax 内に文字や要素があるなら前面に出す */
 .parallax > :not(.parallax__bg) {
   position: relative;
   z-index: 2;
 }
 
-
 /* ---- Simple list styling for services ---- */
-#services ul {
-  list-style: disc inside;
-  padding-left: 1rem;
+
+/* カードコンテナ */
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+  }
 }
 
 /* カードのベース */
+.card-wrap {
+  width: 33%;
+}
+@media screen and (max-width: 768px) {
+  .card-wrap {
+    width: 100%;
+  }
+}
 .service-card {
+  height: 100%;
+  text-align: center;
+  border: 0;
   border-radius: 0.75rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -167,6 +184,7 @@ section {
 /* アイコン */
 .service-card .card-icon i {
   color: #e06126;
+  font-size: calc(1.375rem + 1.5vw)
 }
 
 /* タイトル */
@@ -184,6 +202,11 @@ section {
 /* カード内リンクの余白調整 */
 .service-card .card-body {
   padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 /* レスポンシブ：テキスト揃え */
