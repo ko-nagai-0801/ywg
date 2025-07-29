@@ -147,17 +147,17 @@
         </div>
 
         <!-- サロン事業 -->
-        <!-- <div class="card-wrap">
+        <div class="card-wrap">
           <div class="card service-card">
             <a href="./salon/" class="card-body">
               <div class="card-icon mb-3">
-                <i class="bi bi-scissors"></i>
+                <i class="bi bi-droplet me-1"></i>
               </div>
               <h5 class="card-title">サロン事業</h5>
-              <p class="card-text">サンプルテキスト</p>
+              <p class="card-text">リラクゼーションサロン『月の雫』についてはこちら</p>
             </a>
           </div>
-        </div> -->
+        </div>
 
       </div>
       </div>

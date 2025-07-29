@@ -48,6 +48,29 @@
       </div>
     </section>
 
+    <!-- サロン事業 -->
+    <section id="salon" class="py-5">
+      <div class="container">
+        <!-- サロン事業 -->
+        <div class="row align-items-center salon-item">
+
+          <div class="col-md-6">
+            <h2>サロン事業</h2>
+            <p>
+              当社では、リラクゼーションサロン『月の雫』を経営しています。
+            </p>
+            <!-- リンクボタン追加 -->
+          </div>
+          <div class="col-md-6">
+            <!-- 画像リンク追加 -->
+            <img src="../img/salon-image.webp"
+              alt="サロン事業"
+              class="img-fluid mb-4 mb-md-0">
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
 

@@ -1,0 +1,33 @@
+/* css/salon.css */
+
+/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+.subhero {
+  background-image: url("../img/subhero-salon.webp");
+}
+
+/* メインボックス */
+#salon .salon-item {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* 見出し（h2）を太く */
+#salon .salon-item h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* 768px 以下では見出し中央寄せに */
+@media (max-width: 768px) {
+  #salon .trade-item h2 {
+    text-align: center;
+  }
+}
+
+#salon .salon-item img {
+    border-radius: 0.5rem;
+}
