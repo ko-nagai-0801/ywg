@@ -42,13 +42,16 @@
 
     <!-- Hero -->
     <section id="hero" class="pt-5 text-center hero-bg">
-      <p class="hero-subtitle">アジアを中心とした貿易・コンサルティング・外国人材サポート</p>
+      <p class="hero-subtitle">
+        アジアを中心とした貿易・コンサルティング・外国人材サポート
+      </p>
       <h1 class="hero-title">国際貿易YWG株式会社</h1>
-      <a href="#contact" class="btn btn-primary hero-btn">ご相談・お問い合わせ</a>
+      <a href="./contact" class="btn btn-primary hero-btn">ご相談・お問い合わせ</a>
     </section>
 
+
     <!-- ========================
-      バナーセクション
+      バナーセクション_1
 ========================= -->
     <!-- <section id="business" class="section-banner section-banner--business">
   <h2 class="section-banner__heading text-center">

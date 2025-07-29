@@ -32,7 +32,7 @@
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'about/') ?>">会社概要</a></li>
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'trade/') ?>">貿易業</a></li>
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'hr/') ?>">外国人材紹介</a></li>
-      <!-- <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'salon/') ?>">サロン事業</a></li> -->
+      <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'salon/') ?>">サロン事業</a></li>
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'faq/') ?>">FAQ</a></li>
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'recruit/') ?>">採用情報</a></li>
       <li class="mobile-nav-items"><a href="<?= htmlspecialchars($base . 'contact/') ?>">お問い合わせ</a></li>

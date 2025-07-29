@@ -17,6 +17,7 @@ section {
 }
 
 #hero {
+  color: #fff;
   position: relative;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -29,11 +30,11 @@ section {
 
   /* ■ parallax 初期位置を変数で制御 ■ */
   --init-pos-y: 50%; /* 中画面時の初期位置 */
+  /* デフォルト値 0px を与えると、JS 未読み込み時でもズレない */
+  --scroll-y: 0px;
   background-image: url("../img/hero1.webp");
   background-size: cover;
-  background-position: center var(--init-pos-y);
-
-  color: #fff;
+  background-position: center calc(var(--init-pos-y) + var(--scroll-y));
 }
 /* 擬似要素でオーバーレイを追加 */
 #hero::before {
@@ -184,7 +185,7 @@ section {
 /* アイコン */
 .service-card .card-icon i {
   color: #e06126;
-  font-size: calc(1.375rem + 1.5vw)
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 /* タイトル */

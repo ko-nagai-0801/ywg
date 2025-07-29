@@ -18,6 +18,9 @@
 //   document.addEventListener('DOMContentLoaded', toggleHeaderBg);
 // })();
 
+// -----------------------------------------------
+// ハンバーガーメニュー
+// -----------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector(".hamburger");
   const nav = document.querySelector(".mobile-nav");
@@ -31,6 +34,40 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("open");
   });
 });
+
+// main.js（必ず defer または body 後で読み込む）
+// -----------------------------------------------
+// Hero パララックス
+// -----------------------------------------------
+(() => {
+  const hero = document.getElementById('hero');
+  if (!hero) return;
+
+  // 調整しやすい速度係数：0.2〜0.5 が自然
+  const SPEED = 0.35;
+
+  let ticking = false; // rAF の多重呼出し防止
+
+  const updateParallax = () => {
+    // hero のトップ位置からの距離ではなく全体スクロール量で十分
+    const offset = window.scrollY * SPEED;
+    hero.style.setProperty('--scroll-y', `${offset}px`);
+    ticking = false;
+  };
+
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(updateParallax);
+  };
+
+  // モバイルは早期リターン（必要なら条件を合わせて）
+  const mql = window.matchMedia('(max-width: 576px)');
+  if (!mql.matches) {
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+})();
+
 
 
 /* =====================================
