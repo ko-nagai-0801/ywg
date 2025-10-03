@@ -1,5 +1,23 @@
 // js/main.js
 
+// ヘッダー透過切り替え
+// (function() {
+//   const header = document.querySelector('header');
+
+//   function toggleHeaderBg() {
+//     if (window.scrollY > 0) {
+//       header.classList.add('scrolled');
+//     } else {
+//       header.classList.remove('scrolled');
+//     }
+//   }
+
+//   window.addEventListener('scroll', toggleHeaderBg, { passive: true });
+//   window.addEventListener('resize', toggleHeaderBg);
+//   // 初期状態判定
+//   document.addEventListener('DOMContentLoaded', toggleHeaderBg);
+// })();
+
 // -----------------------------------------------
 // ハンバーガーメニュー
 // -----------------------------------------------
@@ -15,21 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.classList.toggle("active");
     nav.classList.toggle("open");
   });
-
-    // 追加：メニュー内リンクで自動クローズ
-  nav.addEventListener("click", (e) => {
-    const a = e.target.closest('a');
-    if (!a) return;
-    if (nav.classList.contains("open")) {
-      const expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", String(!expanded));
-      btn.classList.toggle("active");
-      nav.classList.toggle("open");
-    }
-  });
 });
-
-
 
 // main.js（必ず defer または body 後で読み込む）
 // -----------------------------------------------

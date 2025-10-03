@@ -6,9 +6,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="国際貿易YWG株式会社はアジア～欧米の輸出入代行・物流コンサル・外国人材支援を提供します">
+  <meta name="description" content="YWGインターナショナル株式会社はアジア～欧米の輸出入代行・物流コンサル・外国人材支援を提供します">
   <link rel="icon" href="./favicon.ico">
-  <title>国際貿易YWG株式会社</title>
+  <title>YWGインターナショナル株式会社</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
 </head>
 
 <body>
-  <?php include('./includes/top-header.php'); ?>
+  <?php include('./includes/header.php'); ?>
 
   <!-- メインコンテンツ -->
   <main id="main-content">
@@ -45,7 +45,7 @@
       <p class="hero-subtitle">
         アジアを中心とした貿易・コンサルティング・外国人材サポート
       </p>
-      <h1 class="hero-title">国際貿易YWG株式会社</h1>
+      <h1 class="hero-title">YWGインターナショナル株式会社</h1>
       <a href="./contact" class="btn btn-primary hero-btn">ご相談・お問い合わせ</a>
     </section>
 

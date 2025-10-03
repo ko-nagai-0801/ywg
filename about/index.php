@@ -6,9 +6,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="国際貿易YWG株式会社の会社概要ページです。">
+  <meta name="description" content="YWGインターナショナル株式会社の会社概要ページです。">
   <link rel="icon" href="../favicon.ico">
-  <title>会社概要 | 国際貿易YWG株式会社</title>
+  <title>会社概要 | YWGインターナショナル株式会社</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@
             <tbody>
               <tr>
                 <th scope="row">会社名</th>
-                <td>国際貿易YWG株式会社</td>
+                <td>YWGインターナショナル株式会社</td>
               </tr>
               <tr>
                 <th scope="row">法人番号</th>

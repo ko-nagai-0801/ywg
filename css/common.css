@@ -44,10 +44,12 @@ a {
   left: 0;
   right: 0;
   height: var(--header-height);
-  background: #fff;
+  background: transparent;
   z-index: 1000;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
+
 .header-inner {
   max-width: 1100px;
   height: 100%;
@@ -56,6 +58,11 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
+}
+
+/* ページ内リンクの見切れ防止（ヘッダー分オフセット） */
+:target {
+  scroll-margin-top: calc(var(--header-height) + 12px);
 }
 
 /* スキップリンク */
@@ -80,6 +87,7 @@ a {
 /* ロゴ */
 .logo img {
   height: 50px;
+  width: auto;
 }
 
 /* デスクトップナビ */

@@ -26,7 +26,7 @@ $base = (dirname($_SERVER['SCRIPT_NAME']) === '/' ? './' : '../');
     <!-- 会社情報 -->
     <div class="row">
       <div class="col-12 text-center">
-        <p class="mb-1">国際貿易YWG株式会社</p>
+        <p class="mb-1">YWGインターナショナル株式会社</p>
         <p class="small mb-0">
           〒232-0022 神奈川県横浜市南区高根町4-23-6-102<br>
           TEL: 045-341-4806 FAX: 045-341-4850
@@ -37,7 +37,7 @@ $base = (dirname($_SERVER['SCRIPT_NAME']) === '/' ? './' : '../');
     <!-- 著作権表記 -->
     <div class="row">
       <div class="col-12 text-center">
-        <small>&copy; 2025 国際貿易YWG株式会社</small>
+        <small>&copy; 2025 YWGインターナショナル株式会社</small>
       </div>
     </div>
 
