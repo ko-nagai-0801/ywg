@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="YWGインターナショナル株式会社の会社概要ページです。">
+  <meta name="description" content="YWGインターナショナル株式会社のサロン事業紹介ページです。">
   <link rel="icon" href="../favicon.ico">
   <title>サロン事業 | YWGインターナショナル株式会社</title>
 
@@ -59,22 +59,32 @@
             <p>
               当社では、リラクゼーションサロン『月の雫』を経営しています。
             </p>
-            <!-- リンクボタン追加 -->
+
+            <div class="my-3">
+              <a
+                href="https://thukino.com/"
+                class="btn btn-primary btn-lg rounded-pill d-inline-flex align-items-center gap-2"
+                target="_blank"
+                rel="noopener"
+                aria-label="リラクゼーションサロン『月の雫』公式サイトを新しいタブで開く">
+                公式サイトへ
+                <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
           </div>
+
           <div class="col-md-6">
-            <!-- 画像リンク追加 -->
-            <img src="../img/salon-image.webp"
-              alt="サロン事業"
-              class="img-fluid mb-4 mb-md-0">
+            <!-- 画像リンク -->
+            <a href="https://thukino.com/" target="_blank" rel="noopener">
+              <img src="../img/salon-image.webp"
+                alt="サロン事業"
+                class="img-fluid mb-4 mb-md-0">
+            </a>
           </div>
 
         </div>
       </div>
     </section>
-
-
-
-
 
   </main>
 
