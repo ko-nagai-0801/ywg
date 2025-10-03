@@ -26,11 +26,11 @@
       --init-pos-y: 40px;
     }
   }
-  @media (max-width: 425px) {
+  /* @media (max-width: 425px) {
     .subhero {
-      /* background-position: center 60%; */
+      background-position: center 60%;
     }
-  }
+  } */
   
   /* オーバーレイ */
   .subhero::before {
