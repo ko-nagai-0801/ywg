@@ -41,11 +41,11 @@
   <main id="main-content">
 
     <!-- Hero -->
-    <section id="hero" class="pt-5 text-center hero-bg">
+    <section id="hero" class="text-start hero-bg">
       <p class="hero-subtitle">
         アジアを中心とした貿易・コンサルティング・外国人材サポート
       </p>
-      <h1 class="hero-title">YWGインターナショナル株式会社</h1>
+      <h1 class="hero-title text-center">YWGインターナショナル<br>株式会社</h1>
       <a href="./contact" class="btn btn-primary hero-btn">ご相談・お問い合わせ</a>
     </section>
 
