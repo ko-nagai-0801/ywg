@@ -66,6 +66,7 @@
             </p>
           </div>
         </div>
+
         <!-- 輸入事業 -->
         <div class="row align-items-center trade-item">
           <div class="col-md-6 order-md-2">
@@ -80,6 +81,61 @@
             </p>
           </div>
         </div>
+
+        <!-- 海外進出コンサル -->
+        <div id="overseas-consulting" class="row align-items-center trade-item">
+          <div class="col-md-6">
+            <img src="../img/consulting.jpg"
+              alt="海外進出コンサルティングのイメージ"
+              class="img-fluid mb-4 mb-md-0"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="col-md-6">
+            <h2>海外進出コンサル</h2>
+            <p>
+              アジア圏への海外ビジネス展開をお考えの企業様へ、的確かつ迅速をモットーに
+              ビジネスマッチング、商品リサーチ、現地視察アテンドサービス、進出支援（会社登記、設立、不動産物件）
+              OEM、総合コンサルティングサービスを行っています。
+            </p>
+          </div>
+        </div>
+
+        <!-- 貿易輸出入代行 -->
+        <div id="export-import-agency" class="row align-items-center trade-item">
+          <div class="col-md-6 order-md-2">
+            <img src="../img/agency.jpg"
+              alt="貿易輸出入代行のイメージ"
+              class="img-fluid mb-4 mb-md-0"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h2>貿易輸出入代行</h2>
+            <p>
+              （◆◆◆サンプルテキスト◆◆◆）<br>
+              煩雑な通関・書類・輸送手配をワンストップで代行します。インコタームズに基づく条件設計、
+              HSコード分類、船積／航空手配、保険付保、FCL／LCL、国内配送まで一貫対応。御社は本業に集中できます。
+            </p>
+          </div>
+        </div>
+
+        <!-- 商品の営業代行 -->
+        <div id="sales-agency" class="row align-items-center trade-item">
+          <div class="col-md-6">
+            <img src="../img/sales.jpg"
+              alt="商品の営業代行のイメージ"
+              class="img-fluid mb-4 mb-md-0"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="col-md-6">
+            <h2>商品の営業代行</h2>
+            <p>
+              （◆◆◆サンプルテキスト◆◆◆）<br>
+              国内外バイヤー・小売・ECモール向けに、販路開拓から商談、受注後の運用まで伴走します。
+              多言語カタログ整備、展示会出展支援、テストマーケ、成果レポーティングまでを一気通貫で支援。
+            </p>
+          </div>
+        </div>
+
       </div>
     </section>
 
