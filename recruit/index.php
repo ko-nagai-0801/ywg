@@ -38,7 +38,7 @@
   <?php include('../includes/header.php'); ?>
 
   <!-- メインコンテンツ -->
-  <main id="main-content" class="pt-5">
+  <main id="main-content" class="main-content">
 
     <!-- サブヒーロー -->
     <section id="subhero" class="subhero parallax text-center d-flex align-items-center justify-content-center">

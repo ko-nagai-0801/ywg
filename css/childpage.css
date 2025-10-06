@@ -1,5 +1,9 @@
 /* css/childpage.css */
 
+#main-content {
+  margin-top: var(--header-height);
+}
+
 
 /* サブヒーローセクション */
 .subhero {
@@ -21,11 +25,11 @@
     }
   }
   /* 小さい画面で下部が見切れないよう下寄せ */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .subhero {
       --init-pos-y: 40px;
     }
-  }
+  } */
   /* @media (max-width: 425px) {
     .subhero {
       background-position: center 60%;
