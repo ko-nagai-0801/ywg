@@ -367,15 +367,39 @@
           </div>
         </div>
 
-        
-      <!-- 画像（プレースホルダー） -->
-      <div class="col-lg-6">
-        <figure class="hr__figure">
-          <!-- 差し替え推奨：/img/hr/hr-parttime-01.jpg -->
-          <img src="../img/hr/hr-parttime-01.jpg" alt="アルバイト紹介のイメージ"
-            loading="lazy" class="img-fluid rounded">
-        </figure>
-      </div>
+
+        <!-- アルバイト画像 カルーセル -->
+        <div class="col-lg-6">
+          <div id="parttimeCarousel" class="carousel slide rounded" data-bs-ride="carousel" aria-label="アルバイト紹介ギャラリー">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#parttimeCarousel" data-bs-slide-to="0" class="active" aria-label="1枚目"></button>
+              <button type="button" data-bs-target="#parttimeCarousel" data-bs-slide-to="1" aria-label="2枚目"></button>
+              <button type="button" data-bs-target="#parttimeCarousel" data-bs-slide-to="2" aria-label="3枚目"></button>
+            </div>
+
+            <div class="carousel-inner rounded">
+              <div class="carousel-item active">
+                <img src="../img/hr/hr-parttime-01.jpg" alt="アルバイト紹介イメージ1" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/hr/hr-parttime-02.jpg" alt="アルバイト紹介イメージ2" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/hr/hr-parttime-03.jpg" alt="アルバイト紹介イメージ3" loading="lazy">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#parttimeCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">前へ</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#parttimeCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">次へ</span>
+            </button>
+          </div>
+        </div>
+
       </div>
 
       <!-- 受入れ前チェック（法令遵守の観点） -->
