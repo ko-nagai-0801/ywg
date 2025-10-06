@@ -1,0 +1,73 @@
+<?php // privacy/index.php 
+?>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="YWGインターナショナル株式会社の会社概要ページです。">
+    <link rel="icon" href="../favicon.ico">
+    <title>会社概要 | YWGインターナショナル株式会社</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" href="../img/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/icons//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icons//favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/icons//apple-touch-icon.png">
+    <link rel="manifest" href="../img/icons//site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/mybootstrap.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/childpage.css">
+    <link rel="stylesheet" href="../css/privacy.css">
+</head>
+
+<body>
+    <?php include('../includes/header.php'); ?>
+
+    <!-- メインコンテンツ -->
+    <main id="main-content" class="main-content">
+
+        <!-- サブヒーロー -->
+        <section id="subhero" class="subhero parallax text-center d-flex align-items-center justify-content-center">
+            <div>
+                <p class="subhero-subtitle">Privacy Policy</p>
+                <h1 class="subhero-title">プライバシーポリシー</h1>
+            </div>
+        </section>
+
+        <section id="privacy" class="py-5">
+            <div class="container">
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================================
+    ・お問い合わせ CTA
+================================ -->
+    <?php include('../includes/contact-cta.php'); ?>
+
+    <?php include('../includes/to-page-top.php'); ?>
+
+    <?php include('../includes/footer.php'); ?>
+
+    <!-- JS: Bootstrap & カスタム -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/main.js" defer></script>
+</body>
+
+</html>
