@@ -64,10 +64,12 @@
               <tr>
                 <th scope="row">事業内容</th>
                 <td>
-                  海外輸出入業<br>
-                  海外ビジネスコンサルティング<br>
-                  外国人サポート<br>
-                  海外委託販売業
+                  <ul class="about-table__list" aria-label="事業内容一覧">
+                    <li>海外輸出入業</li>
+                    <li>海外ビジネスコンサルティング</li>
+                    <li>外国人サポート</li>
+                    <li>海外委託販売業</li>
+                  </ul>
                 </td>
               </tr>
               <tr>
@@ -101,16 +103,34 @@
               <tr>
                 <th scope="row">取引銀行</th>
                 <td>
-                  みずほ銀行 横浜中央支店<br>
-                  横浜信用金庫 野毛町支店
+                  <ul class="about-table__list" aria-label="取引銀行一覧">
+                    <li>みずほ銀行 横浜中央支店</li>
+                    <li>横浜信用金庫 野毛町支店</li>
+                  </ul>
                 </td>
               </tr>
+
               <tr>
                 <th scope="row">加盟団体</th>
                 <td>
-                  横浜商工会議所<br>
-                  横浜中法人会<br>
-                  守成クラブ
+                  <ul class="about-table__list" aria-label="加盟団体一覧">
+                    <li>横浜商工会議所</li>
+                    <li>横浜中法人会</li>
+                    <li>守成クラブ</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">グループ会社</th>
+                <td>
+                  <ul class="about-table__list" aria-label="グループ会社一覧">
+                    <li>928合同会社</li>
+                    <li>ビューティーサロン月の雫</li>
+                    <li>earth協同組合</li>
+                    <li>富士国際日本語学校（ベトナム企業）</li>
+                    <li>イスモヨジャティベルシナル（インドネシア企業）</li>
+                  </ul>
                 </td>
               </tr>
               <tr>

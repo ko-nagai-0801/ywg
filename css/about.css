@@ -32,9 +32,17 @@
   width: 70%;
 }
 
+/* テーブル内リストのスタイル（Bootstrapのスタイルを上書き） */
+.about-table__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
 /* 経営理念セクションの背景色調整 */
 /* #philosophy { */
-  /* 既に bg-light がついていますが、必要であれば色の調整を */
+/* 既に bg-light がついていますが、必要であれば色の調整を */
 /* } */
 
 /* お問い合わせ誘導のボタン余白調整 */
