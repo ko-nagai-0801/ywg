@@ -32,33 +32,25 @@
   width: 70%;
 }
 
-/* テーブル内リストのスタイル（Bootstrapのスタイルを上書き） */
-.about-table__list {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-/* iOS Safari向け: テーブル内の箇条書きから確実に丸を消す */
+/* テーブル内リストのスタイル（iOS Safari含め確実に丸と字下げを消す） */
 .about-table__list {
   list-style: none !important;
   margin: 0;
   padding: 0;
-  /* UAの字下げ対策（Safari系） */
+  /* Safari系のUA由来インデントも明示的に0に */
   padding-inline-start: 0;
   -webkit-padding-start: 0;
 }
 
 .about-table__list > li {
-  /* liが list-item だとマーカーが復活する場合があるため block に */
+  /* list-itemマーカー生成を抑止（UAの復活対策） */
   display: block;
   list-style: none !important;
   margin: .25rem 0;
   line-height: 1.6;
 }
 
-/* マーカーそのものを消す（対応ブラウザ用のダメ押し） */
+/* ::marker を明示的に無効化（対応ブラウザでダメ押し） */
 .about-table__list > li::marker {
   content: "";
 }
