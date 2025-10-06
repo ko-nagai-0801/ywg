@@ -64,7 +64,7 @@
               <tr>
                 <th scope="row">事業内容</th>
                 <td>
-                  <ul class="about-table__list" aria-label="事業内容一覧">
+                  <ul class="about-table__list list-unstyled" aria-label="事業内容一覧">
                     <li>海外輸出入業</li>
                     <li>海外ビジネスコンサルティング</li>
                     <li>外国人サポート</li>
@@ -103,7 +103,7 @@
               <tr>
                 <th scope="row">取引銀行</th>
                 <td>
-                  <ul class="about-table__list" aria-label="取引銀行一覧">
+                  <ul class="about-table__list list-unstyled" aria-label="取引銀行一覧">
                     <li>みずほ銀行 横浜中央支店</li>
                     <li>横浜信用金庫 野毛町支店</li>
                   </ul>
@@ -113,7 +113,7 @@
               <tr>
                 <th scope="row">加盟団体</th>
                 <td>
-                  <ul class="about-table__list" aria-label="加盟団体一覧">
+                  <ul class="about-table__list list-unstyled" aria-label="加盟団体一覧">
                     <li>横浜商工会議所</li>
                     <li>横浜中法人会</li>
                     <li>守成クラブ</li>
@@ -124,7 +124,7 @@
               <tr>
                 <th scope="row">グループ会社</th>
                 <td>
-                  <ul class="about-table__list" aria-label="グループ会社一覧">
+                  <ul class="about-table__list list-unstyled" aria-label="グループ会社一覧">
                     <li>928合同会社</li>
                     <li>ビューティーサロン月の雫</li>
                     <li>earth協同組合</li>

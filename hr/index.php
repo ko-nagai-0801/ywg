@@ -338,9 +338,79 @@
       </div>
     </section>
 
+    <!-- =====================================================
+       04 外国人材アルバイト紹介（サンプル文）
+  ===================================================== -->
+    <section id="parttime" class="container hr__section py-5" aria-labelledby="parttime-title">
+
+      <h2 id="parttime-title" class="hr__section-heading mb-4">外国人材アルバイト紹介</h2>
+
+      <!-- A. 説明 + 画像 -->
+      <div class="row gy-4 align-items-start mb-5">
+        <!-- 説明 -->
+        <div class="col-lg-6">
+          <div class="hr__content">
+            <h3 class="hr__section-subheading">（◆サンプル◆）サービス概要</h3>
+            <p>
+              （◆◆◆サンプルテキスト◆◆◆）<br>
+              短時間の人手不足をスピーディに補いたい企業様向けに、在留資格の範囲内で就労可能な外国人材をご紹介します。
+              受入れ前に<span class="fw-bold">在留資格・資格外活動許可・週28時間上限の確認</span>など、法令順守の事前チェックを実施。
+              文化・コミュニケーションへの配慮も含め、現場にフィットする人選と定着支援まで伴走いたします。
+            </p>
+
+            <h3 class="hr__section-subheading mt-4">（◆サンプル◆）こんな企業様に</h3>
+            <ul class="hr__box-list">
+              <li>急な欠員・繁忙期のシフト補完が必要</li>
+              <li>夜間・早朝・土日など特定時間帯の人手不足</li>
+              <li>多言語接客・インバウンド対応を強化したい</li>
+            </ul>
+          </div>
+        </div>
+
+        
+      <!-- 画像（プレースホルダー） -->
+      <div class="col-lg-6">
+        <figure class="hr__figure">
+          <!-- 差し替え推奨：/img/hr/hr-parttime-01.jpg -->
+          <img src="../img/hr/hr-parttime-01.jpg" alt="アルバイト紹介のイメージ"
+            loading="lazy" class="img-fluid rounded">
+        </figure>
+      </div>
+      </div>
+
+      <!-- 受入れ前チェック（法令遵守の観点） -->
+      <div class="hr__box-container mb-5">
+        <div class="hr__box mb-3">
+          <h4 class="hr__box-title">（◆サンプル◆）受入れ前の主なチェック項目</h4>
+          <ul class="hr__box-list">
+            <li>在留カード確認（在留資格・在留期間）</li>
+            <li>資格外活動許可の有無（留学等の場合）</li>
+            <li>就労可能な職務内容と時間帯（本人の契約条件に適合）</li>
+            <li>週28時間以内の時間管理（学則等の制限がある場合）</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+      <!-- B. 対応分野（例） -->
+      <h3 class="hr__section-subheading mb-3">対応分野（例）</h3>
+      <ul class="industry-list mb-5">
+        <li>飲食・フードサービス（ホール／キッチン補助）</li>
+        <li>小売・販売（接客／品出し／レジ補助）</li>
+        <li>物流・倉庫（ピッキング／仕分け／梱包）</li>
+        <li>ホテル・清掃（客室清掃／共用部清掃 等）</li>
+        <li>製造補助（軽作業／検品）</li>
+        <li>コール・バックオフィス（日本語レベル応相談）</li>
+      </ul>
+
+    </section>
+
+
 
     <!-- =====================================================
-      04 富士国際日本語教育学園
+      05 富士国際日本語教育学園
 ===================================================== -->
     <section id="fuji" class="container hr__section py-5">
 

@@ -26,5 +26,13 @@
   }
 }
 
-/* 768px 以下で画像とテキストが縦並びの際の余白は
-     img の mb-4 で確保済み */
+/* 画像の角丸と影（既存とトーン合わせ） */
+#export-import .trade-item img {
+  border-radius: .5rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+/* セクション内のアイテム間余白（下側をやや広めに） */
+#export-import .trade-item + .trade-item {
+  margin-top: 2rem;
+}

@@ -1,4 +1,4 @@
-/* =============================================================
+/* ============================================================= css/hr.css
     0.  基本要素
 ============================================================= */
 /* サブヒーロー */
@@ -236,4 +236,43 @@
   .benefit-list strong {
     font-size: 1.05rem; /* 1.25 or 1.2 → 1.05 */
   }
+}
+
+/* ================================
+   Part-time section (minimal adds)
+================================ */
+
+/* 段階ステップ（番号付き） */
+.step-list {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.step-list > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.2rem;
+  margin: 0.75rem 0;
+  line-height: 1.8;
+}
+.step-list > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: #1e5e2a;   /* 既存グリーンに合わせる */
+  color: #fff;
+}
+
+/* 情報ボックス（Bootstrap .alert の中身を少しだけ整える） */
+.alert[role="note"] {
+  line-height: 1.7;
 }
