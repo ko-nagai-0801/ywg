@@ -1,4 +1,13 @@
 /* mybootstrap.css: Bootstrap overrides */
+:root {
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #e05414;
+  --bs-btn-focus-box-shadow: #e06126;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e05414;
+  --bs-btn-active-border-color: #e06126;
+}
+
 .btn-primary {
   background: #e06126;
   border: none;
@@ -9,3 +18,19 @@
   border: none;
 }
 
+.btn-check:checked+.btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible, .btn:first-child:active:focus-visible, :not(.btn-check)+.btn:active:focus-visible {
+    box-shadow: 0 0 0 0.25rem rgba(224, 97, 38, 0.5);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #fff;
+    background-color: #e05414;
+    border-color: #e06126;
+}
+.btn:focus-visible {
+    color: #fff;
+    background-color: #e05414;
+    border-color: #e06126;
+    outline: 0;
+    box-shadow: #e06126;
+    box-shadow: 0 0 0 0.25rem rgba(224, 97, 38, 0.5);
+}
