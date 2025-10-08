@@ -1,6 +1,6 @@
 /* css/contact.css */
 
-/* .subheroの画像のみ指定（他はchildpage.css）で管理 */
+/* .subheroの画像指定 */
 .subhero {
   background-image: url("../img/contact-back05.jpg");
 }

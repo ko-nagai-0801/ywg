@@ -1,19 +1,25 @@
 // js/contact.js
-// Bootstrap のカスタムバリデーション利用
+
+// Bootstrap のカスタムバリデーション
 document.addEventListener('DOMContentLoaded', () => {
-    const forms = document.querySelectorAll('.needs-validation');
-    Array.prototype.slice.call(forms).forEach(form => {
-      form.addEventListener('submit', event => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
+  const forms = document.querySelectorAll('.needs-validation');
+  Array.prototype.slice.call(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
   });
-  
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
+});
+
+// reCAPTCHA を含む送信処理（index.php のインラインは削除し、本ファイルに統一）
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+
+  form.addEventListener('submit', function (e) {
     // ネイティブバリデーション
     if (!this.checkValidity()) {
       e.preventDefault();
@@ -21,13 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
       this.classList.add('was-validated');
       return;
     }
-    // ここから reCAPTCHA 処理
+
+    // reCAPTCHA v3
     e.preventDefault();
-    grecaptcha.ready(function() {
-      grecaptcha.execute('6LdocCsrAAAAAJHKgjBmytcmNG6ciRQH7hddnkWd', {action: 'contact'}).then(function(token) {
-        document.getElementById('g-recaptcha-response').value = token;
-        e.target.submit();
-      });
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LcoJOIrAAAAAFFzgasORDsKEat0p7mEoAjVr2z-', { action: 'contact' })
+        .then(function (token) {
+          document.getElementById('g-recaptcha-response').value = token;
+          form.submit();
+        });
     });
   });
-  
+});

@@ -5,4 +5,7 @@ pro.text
 .htpasswd
 /vendor/
 /contact/
+/contact-bk/
+/secret/
+/TEST/
 memo.txt
