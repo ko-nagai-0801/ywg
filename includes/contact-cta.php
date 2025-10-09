@@ -4,7 +4,7 @@
 <div id="contact-cta"
   class="section-banner section-banner--cta footer-separator">
   <div class="section-banner__box container text-center py-5">
-    <h3 class="section-banner__h3">Inquiry</h3>
+    <h3 class="section-banner__h3">Contact</h3>
     <h2 class="section-banner__heading mb-3">
       <i class="bi bi-envelope-fill me-2" aria-hidden="true"></i>
       ご相談・お問い合わせ

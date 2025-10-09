@@ -1,8 +1,7 @@
 <?php
-// includes/footer.php
+// /includes/footer.php
+require_once __DIR__ . '/app.php'; // ← ヘッダー未読込でも安全に動作させる
 
-// ルート直下かサブディレクトリかを判定してリンクの基準パスを作る
-$base = (dirname($_SERVER['SCRIPT_NAME']) === '/' ? './' : '../');
 ?>
 <footer role="contentinfo" class="bg-light">
   <div class="container py-4">
@@ -11,14 +10,14 @@ $base = (dirname($_SERVER['SCRIPT_NAME']) === '/' ? './' : '../');
     <div class="row">
       <div class="col-12 text-center mb-3">
         <ul class="list-inline footer-nav">
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'about/'); ?>">会社概要</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'trade/'); ?>">貿易業</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'hr/'); ?>">外国人材紹介</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'salon/'); ?>">サロン事業</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'faq/'); ?>">FAQ</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'recruit/'); ?>">採用情報</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'contact/'); ?>">お問い合わせ</a></li>
-          <li class="list-inline-item"><a href="<?= htmlspecialchars($base . 'privacy/'); ?>">プライバシーポリシー</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('about/'), ENT_QUOTES, 'UTF-8') ?>">会社概要</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('trade/'), ENT_QUOTES, 'UTF-8') ?>">貿易業</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('hr/'), ENT_QUOTES, 'UTF-8') ?>">外国人材紹介</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('salon/'), ENT_QUOTES, 'UTF-8') ?>">サロン事業</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('faq/'), ENT_QUOTES, 'UTF-8') ?>">FAQ</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('recruit/'), ENT_QUOTES, 'UTF-8') ?>">採用情報</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('contact/'), ENT_QUOTES, 'UTF-8') ?>">お問い合わせ</a></li>
+          <li class="list-inline-item"><a href="<?= htmlspecialchars(href('privacy/'), ENT_QUOTES, 'UTF-8') ?>">プライバシーポリシー</a></li>
         </ul>
       </div>
     </div>

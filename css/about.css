@@ -2,7 +2,7 @@
 
 /* .subheroの画像のみ指定（他はchildpage.css）で管理 */
 .subhero {
-  background-image: url("../img/subhero-about.jpg");
+  background-image: url("../img/subhero-about.webp");
 }
 
 /* 会社概要テーブル */
