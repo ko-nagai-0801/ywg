@@ -106,6 +106,7 @@
                   <ul class="about-table__list list-unstyled mb-0" role="list" aria-label="取引銀行一覧">
                     <li>みずほ銀行 横浜中央支店</li>
                     <li>横浜信用金庫 野毛町支店</li>
+                    <li>楽天銀行</li>
                   </ul>
                 </td>
               </tr>
@@ -114,8 +115,6 @@
                 <th scope="row">加盟団体</th>
                 <td>
                   <ul class="about-table__list list-unstyled mb-0" role="list" aria-label="加盟団体一覧">
-                    <li>横浜商工会議所</li>
-                    <li>横浜中法人会</li>
                     <li>守成クラブ</li>
                   </ul>
                 </td>
