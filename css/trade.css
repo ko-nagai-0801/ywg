@@ -13,6 +13,14 @@
   margin-bottom: 2rem;
 }
 
+/* 輸出事業：特徴リストの行間とアイコン位置調整 */
+.trade-feature-list li + li {
+  margin-top: 0.4rem;
+}
+.trade-feature-list i {
+  line-height: 1.4;
+}
+
 /* 見出し（h2）を太く */
 #export-import .trade-item h2 {
   font-weight: 700;
@@ -28,11 +36,50 @@
 
 /* 画像の角丸と影（既存とトーン合わせ） */
 #export-import .trade-item img {
-  border-radius: .5rem;
-  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* --- サービスリスト／特徴リスト共通 --- */
+.trade-feature-list li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+.trade-feature-list strong {
+  color: #333;
+}
+.trade-feature-list i {
+  color: #e05414;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
 }
 
 /* セクション内のアイテム間余白（下側をやや広めに） */
 #export-import .trade-item + .trade-item {
   margin-top: 2rem;
+}
+
+.trade-feature-list li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+.trade-feature-list strong {
+  color: #333;
+}
+.trade-feature-list i {
+  color: #e05414;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+/* 小見出しとリード文の装飾 */
+.trade-item h2 i {
+  vertical-align: middle;
+}
+.trade-item h3 i {
+  vertical-align: middle;
+}
+.trade-item .lead {
+  font-weight: 600;
+  color: #444;
 }
