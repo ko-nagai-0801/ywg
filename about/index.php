@@ -116,6 +116,7 @@
                 <td>
                   <ul class="about-table__list list-unstyled mb-0" role="list" aria-label="加盟団体一覧">
                     <li>守成クラブ</li>
+                    <li>倫理法人会</li>
                   </ul>
                 </td>
               </tr>
