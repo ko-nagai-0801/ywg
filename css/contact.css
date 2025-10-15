@@ -36,3 +36,10 @@
 .contact-body {
   margin-top: var(--header-height);
 }
+
+/* プレイスホルダーの文字色調整 */
+.contact-form__input::placeholder,
+.contact-form__textarea::placeholder {
+  color: rgba(0, 0, 0, 0.35);
+  opacity: 1;
+}
